@@ -1,0 +1,180 @@
+/* Task 1: Change the font-family of the body to 'Work Sans' */
+
+body {
+  font-family: Work Sans
+}
+
+/* Task 2: Set elements with id='heading' to have font-size 31px */
+
+#heading {
+  font-size: 31px;
+}
+
+/* Task 3: Set elements with class='text' to have font-size 15px */
+
+.text {
+  font-size: 15px;
+}
+
+/* Task 4: Set elements with id='contact' to have:
+  - font-size: 14px
+  - color: black
+  - cursor: pointer */
+
+.contacts {
+ font-size: 14px;
+ color: black;
+ cursor: pointer;
+}
+
+/* ********************************************************* */
+/* Below is template code given by CodeCreate. DO NOT CHANGE */
+/* ********************************************************* */
+
+/* The sidebar menu */
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: #75bdff;
+  display: block;
+}
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+  color: #000000;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#sidebarHeading {
+  color: #75bdff;
+  text-align: center;
+  font-weight: 400;
+}
+
+.dropdownContent {
+  display: none;
+  position: relative;
+  overflow: auto;
+}
+
+.dropdownItem .dropdownContent a {
+  font-size: 14px;
+  color: gray;
+}
+
+#search {
+  height: 39px;
+  width: 250px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #c4c4c4;
+  color: black;
+  border: none;
+}
+
+.linkBlock {
+  display: block;
+  position: relative;
+}
+
+.dropdown {
+  transform: rotate(-90deg);
+  max-width: 15px;
+  float: left;
+  padding-top: 20px;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
+}
+
+#changePage {
+  border-top: 1px solid black;
+  margin-top: 50px;
+}
+#nextPage {
+  float: right;
+  padding-right: 50px;
+  padding-top: 30px;
+  position: relative;
+}
+
+#nextPage a {
+  font-size: 30px;
+  color: #a8a6a6;
+  text-decoration: none;
+}
+
+#nextPage h3 {
+  color: #a8a6a6;
+  font-weight: 300;
+  float: left;
+}
+
+#nextPage img {
+  transform: rotate(-90deg);
+  max-width: 20px;
+  float: right;
+  padding-top: 40px;
+  margin-right: 18px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+.show {
+  display: block;
+}

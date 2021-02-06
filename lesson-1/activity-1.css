@@ -1,0 +1,33 @@
+/* Write our CSS here */
+
+h1 {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+h2 {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+h3 {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+h6 {
+  font-size: 60px;
+  color: greenyellow;
+}
+
+ol {
+  color: gold;
+}
+
+#special {
+  color: red;
+}
+
+.myclass {
+  color: purple;
+}

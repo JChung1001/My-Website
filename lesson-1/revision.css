@@ -1,0 +1,38 @@
+h1 {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+h2 {
+  font-size: 30px;
+  color: whitesmoke;
+}
+p {
+  color: aliceblue;
+}
+
+h3 {
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+h6 {
+  font-size: 60px;
+  color: blueviolet;
+}
+
+ol {
+  color: gold;
+}
+
+#special {
+  color: red;
+}
+
+.myclass {
+  color: purple;
+}
+
+li {
+  line-height: 50px;
+}

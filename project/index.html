@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- Task 0: Add a page title -->
+	<title>Josh's Website</title>
+	<link rel="stylesheet" href="style.css" />
+  <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+</head>
+
+<body>
+
+	<!-- Task 6.1: Format the sidebar
+
+      Link the div below with corresponding CSS:
+        - Set the "class" attribute to "sidebar"
+        - Set the "id" attribute to "mySidebar"
+
+    -->
+	<div>
+
+
+		<!-- Task 6.3: Close menu button
+
+        - Uncomment the following code
+        - Set the "onclick" attribute to "closeNav()".
+
+      -->
+		<!-- <a href="javascript:void(0)" class="closebtn">&times;</a> -->
+
+
+
+		<!-- Task 1.1: Format the heading
+
+        Change this h1's style by setting the 'id' attribute to 'sidebarHeading'
+
+      -->
+		<h1 id="sidebarHeading">Josh's Website</h1>
+
+		<!-- Task 5: Add a search bar
+
+        Create a form that has:
+          - An action that changes directory into the "search" folder and opens index.html from that folder
+          - The method set to GET
+          - A "text" input with a placeholder called "Search..."
+            - In the same input, set the "name" attribute to "query"
+            - In the same input, set the "id" attribute to "search"
+
+      -->
+
+
+		<div>
+			<!-- Task 2: Contact Details
+
+          Add an anchor tag that links to an email address
+          HINT: the href will need to start with 'mailto:'
+            - Set the "id" attribute to "contact"
+        -->
+
+        <div>
+          <p> Contact Details </p>
+          <a id="contact" href="mailto:joshuachung05@gmail.com"> joshuachung05@gmail.com </a>
+        </div>
+			
+		</div>
+		<div class="dropdownItem">
+
+			<!-- Task 3: Contents Menu
+          Add links to each weeks' content.
+            - Create a div with the class name 'linkBlock'
+            - Create an anchor with a class name 'links'
+            - Set the href to '#' for now
+            - OPTIONAL: Create a new Week 1 page and link it to this menu
+            
+        -->
+			<div class="linkBlock">
+				<a class="links" href="#">Introduction</a>
+			</div>
+      <div>
+        <a class="links" href="#">Week 1</a>
+      </div>
+      <div>
+        <a class="links" href="#">Week 2</a>
+      </div>
+		</div>
+	</div>
+
+	<!-- Task 4: Add padding
+
+      Change this div's padding by setting the ID to 'main'
+
+    -->
+	<div id="main">
+
+
+
+		<!-- Task 6.2: Open menu button
+
+        - Uncomment the following code
+        - Set the "onclick" attribute to "openNav()".
+
+      -->
+		<!-- <button class="openbtn">&#9776;</button> -->
+
+
+
+		<!-- Task 1.2: Add an introduction
+
+        Using headers and paragraphs, add an introduction for FINS1612
+          - Headings: Set the class name to 'heading'
+          - Paragraphs: Set the class name to 'text'
+
+      -->
+    <h1 class="heading"> Welcome to my website </h1>
+    <p class="text"> Welcome to my website, glad you're here, please enjoy. </p>
+
+	</div>
+	<script src="script.js" async defer>
+	</script>
+</body>
+
+</html>
